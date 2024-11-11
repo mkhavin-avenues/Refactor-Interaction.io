@@ -99,7 +99,11 @@ function keyPressed() {
 
 
 Classes (Circle and Rectangle): Encapsulate the properties and methods related to each shape.
+
 setup(): Initializes the circle and rectObj as instances of their respective classes.
+
 draw(): Updates and displays both shapes and checks for collisions.
+
 detectCollision(): Checks for collision between the circle and rectangle and returns true if they collide.
+
 keyPressed(): Resets the position and speed of both shapes when the 'R' key is pressed.
